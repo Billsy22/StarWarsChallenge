@@ -12,6 +12,8 @@
 		1601213F20C0C2F200C5EC98 /* StarWarsCodeChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1601213D20C0C2F200C5EC98 /* StarWarsCodeChallenge.xcdatamodeld */; };
 		1601214120C0C2F300C5EC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1601214020C0C2F300C5EC98 /* Assets.xcassets */; };
 		1601214420C0C2F300C5EC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1601214220C0C2F300C5EC98 /* LaunchScreen.storyboard */; };
+		1601215220C0C58A00C5EC98 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1601215120C0C58A00C5EC98 /* CoreDataStack.swift */; };
+		1601215420C0C76D00C5EC98 /* Individual+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1601215320C0C76D00C5EC98 /* Individual+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1601214020C0C2F300C5EC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1601214320C0C2F300C5EC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1601214520C0C2F300C5EC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1601215120C0C58A00C5EC98 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		1601215320C0C76D00C5EC98 /* Individual+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Individual+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,7 @@
 				1601214D20C0C3AE00C5EC98 /* View Controllers */,
 				1601214C20C0C3A300C5EC98 /* Views */,
 				1601214B20C0C39500C5EC98 /* Resources */,
-				1601213D20C0C2F200C5EC98 /* StarWarsCodeChallenge.xcdatamodeld */,
+				1601215020C0C4E500C5EC98 /* CoreData */,
 			);
 			path = StarWarsCodeChallenge;
 			sourceTree = "<group>";
@@ -100,8 +104,18 @@
 		1601214F20C0C3CA00C5EC98 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1601215320C0C76D00C5EC98 /* Individual+Convenience.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		1601215020C0C4E500C5EC98 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1601213D20C0C2F200C5EC98 /* StarWarsCodeChallenge.xcdatamodeld */,
+				1601215120C0C58A00C5EC98 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,8 +189,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1601215220C0C58A00C5EC98 /* CoreDataStack.swift in Sources */,
 				1601213F20C0C2F200C5EC98 /* StarWarsCodeChallenge.xcdatamodeld in Sources */,
 				1601213720C0C2F200C5EC98 /* AppDelegate.swift in Sources */,
+				1601215420C0C76D00C5EC98 /* Individual+Convenience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZ5N56B84J;
-				INFOPLIST_FILE = StarWarsCodeChallenge/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/StarWarsCodeChallenge/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,7 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZ5N56B84J;
-				INFOPLIST_FILE = StarWarsCodeChallenge/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/StarWarsCodeChallenge/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
