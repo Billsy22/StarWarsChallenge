@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1601213720C0C2F200C5EC98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1601213620C0C2F200C5EC98 /* AppDelegate.swift */; };
-		1601213920C0C2F200C5EC98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1601213820C0C2F200C5EC98 /* ViewController.swift */; };
 		1601213C20C0C2F200C5EC98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1601213A20C0C2F200C5EC98 /* Main.storyboard */; };
 		1601213F20C0C2F200C5EC98 /* StarWarsCodeChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1601213D20C0C2F200C5EC98 /* StarWarsCodeChallenge.xcdatamodeld */; };
 		1601214120C0C2F300C5EC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1601214020C0C2F300C5EC98 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		1601213320C0C2F200C5EC98 /* StarWarsCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1601213620C0C2F200C5EC98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1601213820C0C2F200C5EC98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1601213B20C0C2F200C5EC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1601213E20C0C2F200C5EC98 /* StarWarsCodeChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarWarsCodeChallenge.xcdatamodel; sourceTree = "<group>"; };
 		1601214020C0C2F300C5EC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,15 +54,54 @@
 		1601213520C0C2F200C5EC98 /* StarWarsCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				1601213620C0C2F200C5EC98 /* AppDelegate.swift */,
-				1601213820C0C2F200C5EC98 /* ViewController.swift */,
-				1601213A20C0C2F200C5EC98 /* Main.storyboard */,
-				1601214020C0C2F300C5EC98 /* Assets.xcassets */,
-				1601214220C0C2F300C5EC98 /* LaunchScreen.storyboard */,
-				1601214520C0C2F300C5EC98 /* Info.plist */,
+				1601214F20C0C3CA00C5EC98 /* Models */,
+				1601214E20C0C3B600C5EC98 /* Model Controllers */,
+				1601214D20C0C3AE00C5EC98 /* View Controllers */,
+				1601214C20C0C3A300C5EC98 /* Views */,
+				1601214B20C0C39500C5EC98 /* Resources */,
 				1601213D20C0C2F200C5EC98 /* StarWarsCodeChallenge.xcdatamodeld */,
 			);
 			path = StarWarsCodeChallenge;
+			sourceTree = "<group>";
+		};
+		1601214B20C0C39500C5EC98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1601213620C0C2F200C5EC98 /* AppDelegate.swift */,
+				1601214020C0C2F300C5EC98 /* Assets.xcassets */,
+				1601214520C0C2F300C5EC98 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1601214C20C0C3A300C5EC98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1601213A20C0C2F200C5EC98 /* Main.storyboard */,
+				1601214220C0C2F300C5EC98 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1601214D20C0C3AE00C5EC98 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1601214E20C0C3B600C5EC98 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		1601214F20C0C3CA00C5EC98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +176,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1601213F20C0C2F200C5EC98 /* StarWarsCodeChallenge.xcdatamodeld in Sources */,
-				1601213920C0C2F200C5EC98 /* ViewController.swift in Sources */,
 				1601213720C0C2F200C5EC98 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
