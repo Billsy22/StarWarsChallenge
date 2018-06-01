@@ -14,6 +14,7 @@
 		1601214420C0C2F300C5EC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1601214220C0C2F300C5EC98 /* LaunchScreen.storyboard */; };
 		1601215220C0C58A00C5EC98 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1601215120C0C58A00C5EC98 /* CoreDataStack.swift */; };
 		1601215420C0C76D00C5EC98 /* Individual+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1601215320C0C76D00C5EC98 /* Individual+Convenience.swift */; };
+		1601215620C0C9F900C5EC98 /* IndividualController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1601215520C0C9F900C5EC98 /* IndividualController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1601214520C0C2F300C5EC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1601215120C0C58A00C5EC98 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		1601215320C0C76D00C5EC98 /* Individual+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Individual+Convenience.swift"; sourceTree = "<group>"; };
+		1601215520C0C9F900C5EC98 /* IndividualController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		1601214E20C0C3B600C5EC98 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1601215520C0C9F900C5EC98 /* IndividualController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				1601215220C0C58A00C5EC98 /* CoreDataStack.swift in Sources */,
 				1601213F20C0C2F200C5EC98 /* StarWarsCodeChallenge.xcdatamodeld in Sources */,
 				1601213720C0C2F200C5EC98 /* AppDelegate.swift in Sources */,
+				1601215620C0C9F900C5EC98 /* IndividualController.swift in Sources */,
 				1601215420C0C76D00C5EC98 /* Individual+Convenience.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
